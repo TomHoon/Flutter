@@ -8,10 +8,8 @@ class StartScreen extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Image.asset(
-          "assets/images/quiz-logo.png",
-          height: 500,
-        ),
+        Image.asset("assets/images/quiz-logo.png",
+            height: 500, color: Color.fromARGB(76, 255, 255, 255)),
         const SizedBox(
           height: 30,
         ),
